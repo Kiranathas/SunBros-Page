@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="documento HTML5">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <title>Sun Bros</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    
+
+
+<body>
+
+
+  
+    <header>
+        <section class="iconos">
+            <a class="referencia" href="https://www.facebook.com/Sun-Bros-103610558006266"><i class="fab fa-facebook"></i></a>
+            <a class="referencia" href="https://www.instagram.com/sunbros_bazar/?hl=es"><i class="fab fa-instagram"></i></a>  
+            <a class="referencia" href="mailto:sunbrosbazar2662@gmail.com"><i class="far fa-envelope"></i></a>
+            <a class="referencia" href="tel:+5447845287"><i class="fas fa-phone-alt"></i></a>
+            <a class="referencia" href="https://api.whatsapp.com/send?phone=541127575595"><i class="fab fa-whatsapp"></i></a>
+            <a class="referencia" href="ubicación.html"><i class="fas fa-map-marked-alt"></i></a>
+        </section> 
+
+
+        <div>
+            <h1>Sun Bros</h1>
+        </div>
+      
+        <div class="centrado">
+            <section class="menu-section">
+                <nav class="menu-simple">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="quienesomos.html">Nosotros</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="registro.html">Registro</a></li>
+                        <li><a href="ubicación.html">Ubicación</a></li>
+                    </ul>
+                </nav>	
+            </section>
+        </div>
+    
+    </header>
+
+
+    <main>
+        <section>
+        <h2 class="animate__animated animate__rubberBand">Formulario de Registro</h2>
+        <form class="formularios" action="https://formspree.io/f/xjvjgyjg"  method="post" target="blank">
+            <fieldset> 
+                <legend> Datos Personales</legend>
+            <label>
+                Nombre:<input type="text" name="firstname" placeholder="Ingrese su nombre" required>
+            </label>
+            <br><br>
+            <label>
+                Apellido:<input type="text" name="lastname" placeholder="Ingrese su apellido" required>
+            </label>
+            <br><br>
+            <label>
+                Dirección:<input type="text" name="address" placeholder="Ingrese su dirección" required>
+            </label>
+            <br><br>
+            <label>
+                Ciudad:
+                <select name="selector">
+                    <option value="C.A.B.A"> C.A.B.A</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                </select>
+            </label>
+            <br><br>
+            <label>
+                Código Postal:<input type="text" name="zipcode"  placeholder="Ingrese su código postal">
+            </label>
+            <br><br>
+            <label>
+                Fecha de Nacimiento:<input type="date" name="birthdate" required>
+            </label>
+            <br><br>
+            <p>Género: 
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="mujer">Mujer 
+                <input type="radio" name="gender" value="otro">Otro 
+            </p>
+            </fieldset>
+            <br><br>
+            <fieldset> 
+                <legend> Datos de Registro</legend>
+             <label>
+                    Teléfono:<input type="tel" name="telephone" placeholder="Ingrese su teléfono">
+             </label>
+                <br><br>
+             <label>
+                Mail:<input type="email" name="email" placeholder="Ingrese su mail" required multiple>
+            </label>
+            <br><br>
+            <label>
+                Contraseña:<input type="password" name="password" minlength="8" maxlength="15" placeholder="Ingrese su contraseña" required>
+            </label>
+            <br><br>
+            <h5>Dejanos tu comentario:</h5>
+            <textarea name="comentarios" cols="30" rows="10"></textarea>
+            <br>
+        </fieldset>
+            <br>
+            <input class="boton" type="reset" name="reset">
+            <input class="boton" type="submit" name="submit">
+        </form>
+    </section>
+    </main>
+
+
+   
+    <footer>
+        <div>
+            <address class="copiright">
+             &Copiright-Sun Bros Bazar.
+                 <br>
+            Derechos reservados 2021
+            </address>
+        </div>
+        <section class="iconos">
+            <a class="referencia" href="https://www.facebook.com/Sun-Bros-103610558006266"><i class="fab fa-facebook"></i></a>
+            <a class="referencia" href="https://www.instagram.com/sunbros_bazar/?hl=es"><i class="fab fa-instagram"></i></a>  
+            <a class="referencia" href="mailto:sunbrosbazar2662@gmail.com"><i class="far fa-envelope"></i></a>
+            <a class="referencia" href="tel:+5447845287"><i class="fas fa-phone-alt"></i></a>
+            <a class="referencia" href="https://api.whatsapp.com/send?phone=541127575595"><i class="fab fa-whatsapp"></i></a>
+            <a class="referencia" href="ubicación.html"><i class="fas fa-map-marked-alt"></i></a>
+        </section> 
+    </footer>
+</body>
+
+
+</html>
